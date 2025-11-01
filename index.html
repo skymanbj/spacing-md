@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Markdown Editor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <textarea id="editor">欢迎使用 Markdown 编辑器
+这是一个可以自动为中英文混排添加空格的编辑器。
+
+### 功能特点
+- 自动在中文和 English 之间添加空格
+- 自动在中文和 123 数字之间添加空格
+- 让你的文档看起来更 professional
+
+### 示例
+使用 React 开发的 Web 应用可以在 2024 年达到最佳性能。现在的 JavaScript 框架已经非常成熟了！
+
+在 macOS 系统中运行 npm install 命令，可以安装 package.json 中定义的所有 dependencies。
+
+这个 API 支持返回 JSON 格式的数据，响应时间小于 100ms，非常快速。
+
+**注意**：编辑左侧内容，右侧会实时预览添加空格后的效果！</textarea>
+        <div id="preview"></div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
